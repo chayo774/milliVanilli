@@ -1,0 +1,103 @@
+/* .prompt {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prompt h2 {
+    margin-bottom: 10px;
+  }
+  
+  .prompt input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .prompt button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   */
+body, html{
+  margin: 0;padding: 0;box-sizing: border-box;font-family: sans-serif;
+}
+body{background: #2281ca;}
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+background: #e9e9a9;
+/* flex: 20%; */
+width: 300px;
+/* height: 300px; */
+margin: 10px;
+border: 3px solid black;
+display:flex;
+flex-direction: column;
+}
+/* el contenido tiene que crecer para que ocupe todo lo que pueda y encogerse */
+.card .content{
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.card .footer{
+background-color: grey;
+padding: 10px;
+}
+.content p, .content h1{
+  padding: 10px;
+}
+.second_container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card_2{
+  background:white;
+  width: 270px;
+  /* height: 400px; */
+  margin: 10px;
+  border-radius: 15px;
+}
+.card-image{
+  background-color:aqua;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-1{
+  background-image: url("https://picsum.photos/200/300");
+}
+.card_2 p, .card_2 h2{
+  padding: 10px;
+}
+.card_2 a{
+  background-color: black;
+  color:wheat;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+/* tomado desde:
+a)https://youtu.be/lmTIoy9lY-Y
+b) https://youtu.be/qXRYMdvq_Dc */
+
+/* prueba tecnica de React:
+https://www.youtube.com/watch?v=XYpadB4VadY */
